@@ -1,6 +1,6 @@
 .user-component {
   justify-content: space-between;
-  padding: var(--horizontal-space);
+  padding: 10px;
 }
 
 .user-component,
@@ -15,6 +15,7 @@
   border-radius: 30px;
   margin-right: 15px;
   margin-left: 17px;
+  margin-top: -10px;
 }
 
 .user-component__title {
@@ -44,5 +45,16 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component:nth-child(2) {
+  margin-top: -35px;
+}
+
+.user-component__time {
+  display: block;
 }
