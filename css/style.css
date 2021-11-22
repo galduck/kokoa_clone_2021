@@ -1,0 +1,19 @@
+/* css파일 추가할 때마다 여기에 하나씩 추가추가 */
+@import "reset.css";
+@import "variables.css";
+
+/* components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+
+/* set as a default */
+body {
+  color: #53535f;
+  font-family: "Open Sans", sans-serif;
+}
